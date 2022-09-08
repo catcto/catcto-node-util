@@ -1,0 +1,27 @@
+{
+  "name": "catcto-node-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcto/catcto-node-util.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "catcto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catcto/catcto-node-util/issues"
+  },
+  "homepage": "https://github.com/catcto/catcto-node-util#readme",
+  "dependencies": {
+    "ioredis": "^5.2.3",
+    "lodash": "^4.17.21"
+  }
+}
