@@ -37,7 +37,7 @@ const web = {
       .init(_.isEmpty(config) ? defaultConfig : _.extend(defaultConfig, config));
     return i18nextMiddleware.handle(i18next);
   },
-  notFound: (req, res, next) => res.status(404).send('Not Found'),
+  notfound: (req, res, next) => res.status(404).send('Not Found'),
   error: (err, req, res, next) => {
     utils.debug.error(err);
     res.status(500).send('Internal Server Error')
