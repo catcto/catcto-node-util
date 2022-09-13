@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/catcto/catcto-node-util#readme",
   "dependencies": {
+    "i18next-express-middleware": "^2.0.0",
+    "i18next-node-fs-backend": "^2.1.3",
     "ioredis": "^5.2.3",
     "lodash": "^4.17.21"
   }
