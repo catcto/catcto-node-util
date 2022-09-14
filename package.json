@@ -1,6 +1,6 @@
 {
   "name": "catcto-node-util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "src/index.js",
   "type": "module",
@@ -24,7 +24,6 @@
     "i18next": "^21.9.1",
     "i18next-fs-backend": "^1.1.5",
     "i18next-http-middleware": "^3.2.1",
-    "ioredis": "^5.2.3",
     "lodash": "^4.17.21"
   }
 }

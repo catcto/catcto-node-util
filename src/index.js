@@ -1,4 +1,3 @@
-import cache from "./cache.js";
 import middleware from "./middleware.js";
 import debug from "debug";
 
@@ -17,7 +16,6 @@ const devLog = debug('app:dev');
 const prodLog = debug('app:prod');
 
 export default {
-  cache,
   middleware,
   debug: {
     log,
